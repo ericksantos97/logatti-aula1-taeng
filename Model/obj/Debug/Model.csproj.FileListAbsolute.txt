@@ -1,0 +1,6 @@
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\bin\Debug\Model.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\bin\Debug\Model.pdb
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\obj\Debug\Model.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Model\obj\Debug\Model.pdb
