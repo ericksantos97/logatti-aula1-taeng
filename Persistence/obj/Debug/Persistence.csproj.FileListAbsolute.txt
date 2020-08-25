@@ -31,3 +31,6 @@ D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\obj\Debug\Pe
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\obj\Debug\Persistence.csproj.CopyComplete
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\obj\Debug\Persistence.dll
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\obj\Debug\Persistence.pdb
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\bin\Debug\Persistence.dll.config
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Persistence\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

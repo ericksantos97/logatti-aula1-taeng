@@ -1,0 +1,5 @@
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Utils\bin\Debug\Utils.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Utils\bin\Debug\Utils.pdb
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Utils\obj\Debug\Utils.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Utils\obj\Debug\Utils.pdb

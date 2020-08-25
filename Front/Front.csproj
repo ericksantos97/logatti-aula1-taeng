@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AulaForm.aspx" />
+    <Content Include="AulaList.aspx" />
+    <Content Include="imagens\alterar.png" />
+    <Content Include="imagens\excluir.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +80,13 @@
     </Compile>
     <Compile Include="AulaForm.aspx.designer.cs">
       <DependentUpon>AulaForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AulaList.aspx.cs">
+      <DependentUpon>AulaList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AulaList.aspx.designer.cs">
+      <DependentUpon>AulaList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -98,7 +108,12 @@
       <Project>{A56809AA-94B6-4F97-BBB3-3E0CD3BB6975}</Project>
       <Name>Persistence</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionDB", "ConnectionDB\ConnectionDB.csproj", "{EF2D21A9-15E2-4919-BC5D-26DCECF1A9C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{EF2D21A9-15E2-4919-BC5D-26DCECF1A9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2D21A9-15E2-4919-BC5D-26DCECF1A9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2D21A9-15E2-4919-BC5D-26DCECF1A9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9CF36E-F81E-4BE4-B89B-C06E8CC1E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

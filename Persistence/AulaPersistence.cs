@@ -1,11 +1,10 @@
 ﻿using ConnectionDB;
 using Model;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 
 namespace Persistence
@@ -35,7 +34,7 @@ namespace Persistence
                 connection.ExecuteCommand(sb.ToString());
             }
         }
-      
+
         public void Update(Aula aula)
         {
             sb = new StringBuilder();
@@ -60,6 +59,26 @@ namespace Persistence
                 return ProduceResult(connection.ExecuteCommandWithReturn(sql));
             }
         }
+
+        private List<Aula> ProduceResult(MySqlDataReader reader)
+        {
+            var aulas = new List<Aula>();
+
+            while (reader.Read())
+            {
+                Aula aula = new Aula()
+                {
+                    Id = int.Parse(reader["id"].ToString()),
+                    NomeDisciplina = reader["nome_disciplina"].ToString(),
+                    QuantidadeAluno = int.Parse(reader["quantidade_aluno"].ToString()),
+                    NomeProfessor = reader["nome_professor"].ToString(),
+                    NomeFaculdade = reader["nome_faculdade"].ToString(),
+                };
+                aulas.Add(aula);
+            }
+            return aulas;
+        }
+
         public Aula FindOne(int id)
         {
             using (connection = new DBConnection())
@@ -78,6 +97,7 @@ namespace Persistence
         private List<Aula> ProduceResult(SqlDataReader reader)
         {
             List<Aula> aulas = new List<Aula>();
+
             while (reader.Read())
             {
                 Aula aula = new Aula()

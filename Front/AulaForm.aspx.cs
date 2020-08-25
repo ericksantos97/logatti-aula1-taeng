@@ -1,7 +1,9 @@
 ﻿using Model;
 using Persistence;
 using System;
-
+using System.Drawing;
+using System.Web.UI;
+using Utils;
 
 namespace Front
 {
@@ -21,7 +23,7 @@ namespace Front
         {
             if (IsInvalidForm())
             {
-                /*SendMessage(Message.MSG_REQUIRED_FIELDS, Color.Red);*/
+                SendMessage(Messages.MSG_REQUIRED_FIELDS, Color.Red);
             }
             else
             {
@@ -38,18 +40,18 @@ namespace Front
                     {
                         aula.Id = int.Parse(txtId.Text);
                         aulaPersistence.Update(aula);
-                        /*SendMessage(Message.MSG_UPDATE_SUCCESS, Color.Green);*/
+                        SendMessage(Messages.MSG_UPDATE_SUCCESS, Color.Green);
                     }
                     else
                     {
                         aulaPersistence.Create(aula);
-                        /*SendMessage(Message.MSG_CREATION_SUCCESS, Color.Green);*/
+                        SendMessage(Messages.MSG_CREATION_SUCCESS, Color.Green);
                     }
                     ResetForm(true);
                 }
                 catch (Exception ex)
                 {
-                   /* SendMessage($"{Message.MSG_ERROR} {ex.Message}", Color.Red);*/
+                   SendMessage($"{Messages.MSG_ERROR} {ex.Message}", Color.Red);
                 }
             }
         }
@@ -90,12 +92,12 @@ namespace Front
             }
         }
 
-        /*private void SendMessage(string message, Color color)
+        private void SendMessage(string message, Color color)
         {
             lblMensagem.Text = message;
             lblMensagem.ForeColor = color;
             lblMensagem.Font.Bold = true;
             ClientScript.RegisterStartupScript(typeof(Page), Guid.NewGuid().ToString(), "showMessage();", true);
-        }*/
+        }
     }
 }

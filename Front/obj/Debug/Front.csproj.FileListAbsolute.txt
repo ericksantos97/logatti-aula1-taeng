@@ -85,3 +85,8 @@ D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\K4os.Compressi
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\K4os.Hash.xxHash.xml
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\System.Memory.xml
 D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\System.Numerics.Vectors.xml
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\Utils.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\Persistence.dll.config
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\Utils.pdb
+D:\FACULDADES - LOGATTI\TOPICOS AV ENG II\PROJETOS\Aula\Front\bin\System.Runtime.CompilerServices.Unsafe.xml

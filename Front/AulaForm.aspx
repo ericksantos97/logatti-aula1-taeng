@@ -10,9 +10,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Aula</title>
+    <script type="text/javascript">
+        function showMessage() {
+            $('.toast').toast('show');
+        }
+        function allowOnlyNumber(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+    </script>
 </head>
 <body>
-   <div class="container">
+    <div class="toast ml-auto" role="alert" data-delay="5000" data-autohide="true" style="margin-right: 15px; margin-top: 15px;">
+        <div class="toast-header">
+            <strong class="mr-auto text-primary">Mensagem</strong>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            <asp:Label ID="lblMensagem" runat="server" Text=""></asp:Label>
+        </div>
+    </div>
+    <div class="container">
         <form id="form" runat="server">
             <div class="row" style="margin-top: 15px;">
                 <div class="col-12">
@@ -37,7 +59,7 @@
                 <div class="col-5">
                     <div class="form-group">
                         <asp:Label ID="lblQuantidadeAluno" runat="server" Text="*Quantidade de Aluno"></asp:Label>
-                        <asp:TextBox class="form-control" MaxLength="10" ID="txtQuantidadeAluno" runat="server"></asp:TextBox>
+                        <asp:TextBox onkeypress="return allowOnlyNumber(event);" class="form-control" MaxLength="10" ID="txtQuantidadeAluno" runat="server"></asp:TextBox>
                     </div>
                 </div>
             </div>
